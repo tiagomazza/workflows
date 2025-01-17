@@ -5,3 +5,5 @@ requests==2.26.0     # Biblioteca para fazer requisições HTTP
 # Para testes
 pytest==6.2.5        # Framework de testes
 pytest-cov==2.12.1   # Plugin para medir cobertura de testes
+pytest-html==3.1.1   # Para geração de relatórios em HTML
+
