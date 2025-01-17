@@ -1,6 +1,6 @@
 # app.py
 
-def soma(a, b):
+def sua_funcao(a, b):
     """
     Soma dois números e retorna o resultado.
     
