@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Create a new file and write to it
+      - name: Create a file with a message
+        run: echo "This is a message from GitHub Actions!" > message.txt
+
+      # Display the contents of the newly created file
+      - name: Display the contents of the file
+        run: cat message.txt
