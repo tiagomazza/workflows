@@ -1,5 +1,3 @@
-# app.py
-
 def sua_funcao(a, b):
     """
     Soma dois números e retorna o resultado.
