@@ -8,7 +8,7 @@ def sua_funcao(a, b):
     :param b: Segundo número
     :return: Soma de a e b
     """
-    return a + b
+    return b
 #teste
 
 if __name__ == "__main__":
