@@ -9,6 +9,7 @@ def soma(a, b):
     :return: Soma de a e b
     """
     return a + b
+#teste
 
 if __name__ == "__main__":
     # Código para teste rápido
