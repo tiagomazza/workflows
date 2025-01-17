@@ -29,3 +29,9 @@ jobs:
       - name: Run tests with pytest and generate report
         run: |
           pytest --html=report.html --self-contained-html  # Gera um relatório em HTML
+
+      - name: Upload test report
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-report
+          path: report.html  # Caminho para o relatório gerado
